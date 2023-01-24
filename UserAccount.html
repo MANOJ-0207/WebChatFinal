@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat It</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="Messenger.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="https://cryptologos.cc/logos/chatcoin-chat-logo.png">
+</head>
+
+<body>
+    <div class="container" style="width:1440px;height: 618px;">
+        <div style="padding-left: 40px; padding-top: 40px;">
+            <a class="btn btn-secondary" href="User.html" role="button">Back</a>
+            <div class="container rounded bg-white mt-5 mb-5" style="padding-left:100px; ">
+                <div class="row">
+                    <div class="col-md-3 border rounded">
+                        <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
+                                class="rounded-circle mt-5" width="150px"
+                                src="https://i.pinimg.com/originals/ef/0d/ec/ef0dec7cb8b80b65ae925ccb9286f567.jpg"><span
+                                class="font-weight-bold">TonyStark</span><span
+                                class="text-black-50">stark@mail.com.my</span><span> </span></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="p-3 py-5">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="text-right">Profile Settings</h4>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6"><label class="labels">First Name</label><input type="text"
+                                        class="form-control" placeholder="First Name" value="Tony"></div>
+                                <div class="col-md-6"><label class="labels">Last Name</label><input type="text"
+                                        class="form-control" placeholder="Last Name" value="Stark"></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text"
+                                        class="form-control" placeholder="Mobile Number" value="9873289378"></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-6"><label class="labels">Country</label><input type="text"
+                                        class="form-control" placeholder="country" value="America"></div>
+                            </div>
+                            <div class="mt-5 text-center">  
+                                <a data-bs-toggle="modal" data-bs-target="#saveConfirm" class="btn btn-primary profile-button" type="button" href="#"> Save Profile </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="modal fade" id="saveConfirm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Log Out</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Save Changes?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <a href="User.html" type="button" class="btn btn-primary">Save</a>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
